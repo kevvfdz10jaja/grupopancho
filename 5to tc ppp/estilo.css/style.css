@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23faedcd' fill-opacity='1'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 400px; 
+    left: 400px; 
+    right: 400px; 
+    bottom: 400px; 
+    border: 400px solid #ff0000; 
+    z-index: -3; 
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 50px; 
+    right: 50px; 
+    bottom: 50px;
+    border: 15px solid #38b6ff; 
+    z-index: -2; 
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    border: 30px solid #a1142f; 
+    z-index: -1; 
+    pointer-events: none; 
+}
+
+.content {
+    position: relative;
+    top: -60px;
+    padding: 200px; 
+    margin-top: 40px; 
+    background-color: transparent; 
+    z-index: 1;
+}
+
+body {
+    text-align: center;
+}
+h1, p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
