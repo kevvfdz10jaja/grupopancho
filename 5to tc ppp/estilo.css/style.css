@@ -54,6 +54,7 @@ body {
     text-align: center;
 }
 h1, p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     text-align: center;
 }
+@media (max-width: 768px){ /* Estilos CSS */ }
